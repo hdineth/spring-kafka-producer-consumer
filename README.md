@@ -14,3 +14,6 @@ A demo app to implement a kafka producer and a consumer
 # How to change consuming topic?
 
   - Edit application-dev.yml file and re run app.
+
+
+# visit www.techmagister.blogspot.com for more tutorials
