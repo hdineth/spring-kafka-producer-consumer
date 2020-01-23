@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "bce2246b-c296-4ac7-82c2-d643311cb5a4",
+		"name": "kafkatester",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "kafkatester - produce meaasage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n\t\"message\":\"techmagister.blogspot.com\",\n\t\"topic\":\"kafkatester\",\n\t\"iterations\":3\n\t\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8085/kafka-tester/produce-message",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8085",
+					"path": [
+						"kafka-tester",
+						"produce-message"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

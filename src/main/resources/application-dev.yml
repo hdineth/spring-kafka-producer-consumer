@@ -1,0 +1,11 @@
+
+application:
+  integrations:
+    kafka:
+      groupid: kafka-tester-G1
+      listeners:
+          topic: kafkatester
+      servers: 127.0.0.1:9092
+
+server:
+  port: 8085
